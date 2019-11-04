@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let diemVatly ;
+        let diemHoahoc ;
+        let diemSinhhoc ;
+        diemVatly = prompt ("Nhap diem Vat ly") ;
+        diemHoahoc = prompt ("Nhap diem Hoa hoc") ;
+        diemSinhhoc = prompt ("Nhap diem Sinh hoc") ;
+        let Vatly = parseFloat (diemVatly) ; 
+        let Hoahoc = parseFloat (diemHoahoc) ;
+        let Sinhhoc = parseFloat (diemSinhhoc) ;
+        let Diemtrungbinh = (Vatly + Hoahoc + Sinhhoc)/3 ;
+        document.write ("Diem trung binh la :" +Diemtrungbinh) ;
+        document.write ("<br/>");
+        let Tong = (Vatly + Hoahoc +Sinhhoc ) ;
+        document.write ("Tong diem la :" +Tong ) ;
+        document.write ("<br/>");
+
+
+        </script>
+</body>
+</html>
